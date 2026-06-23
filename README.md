@@ -1,16 +1,90 @@
-# React + Vite
+#  InternHub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InternHub is a modern internship tracking platform that helps students organize and manage their internship applications in one place.
 
-Currently, two official plugins are available:
+##  Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://internhub-psi.vercel.app/
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Add internship applications
+* Edit and update application status
+* Delete applications
+* Search applications by company or role
+* Filter applications by status
+* Analytics dashboard with visual insights
+* Kanban board for application tracking
+* Export applications to CSV
+* Resource center for internship preparation
+* Responsive modern UI
+* Local storage persistence
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React.js
+* Vite
+* React Router DOM
+* Tailwind CSS
+
+### Charts & Analytics
+
+* Recharts
+
+### Data Storage
+
+* Local Storage
+
+### Deployment
+
+* Vercel
+
+##  Application Workflow
+
+1. Add internship applications
+2. Track progress through different stages
+3. Analyze application statistics
+4. Manage opportunities using Kanban view
+5. Export application data when required
+
+## 📁 Project Structure
+
+src/
+├── components/
+├── context/
+├── pages/
+├── routes/
+├── utils/
+└── data/
+
+##  Pages
+
+* Home
+* Overview Dashboard
+* Internships
+* Analytics
+* Resources
+* Add Application
+* Application Details
+
+##  Installation
+
+```bash
+git clone https://github.com/rishitha-yerapothina/internhub.git
+cd internhub
+npm install
+npm run dev
+```
+
+##  Deployment
+
+The application is deployed on Vercel:
+
+https://internhub-psi.vercel.app/
+
+
+B.Tech CSE (AI & ML)
+
+Frontend Developer & AI/ML Enthusiast
